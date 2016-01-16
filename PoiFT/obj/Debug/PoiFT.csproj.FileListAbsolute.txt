@@ -1,0 +1,10 @@
+c:\users\ксюша\documents\visual studio 2013\Projects\PoiFT\PoiFT\bin\Debug\PoiFT.exe.config
+c:\users\ксюша\documents\visual studio 2013\Projects\PoiFT\PoiFT\bin\Debug\PoiFT.exe
+c:\users\ксюша\documents\visual studio 2013\Projects\PoiFT\PoiFT\bin\Debug\PoiFT.pdb
+c:\users\ксюша\documents\visual studio 2013\Projects\PoiFT\PoiFT\obj\Debug\PoiFT.csprojResolveAssemblyReference.cache
+c:\users\ксюша\documents\visual studio 2013\Projects\PoiFT\PoiFT\obj\Debug\PoiFT.Form1.resources
+c:\users\ксюша\documents\visual studio 2013\Projects\PoiFT\PoiFT\obj\Debug\PoiFT.Properties.Resources.resources
+c:\users\ксюша\documents\visual studio 2013\Projects\PoiFT\PoiFT\obj\Debug\PoiFT.csproj.GenerateResource.Cache
+c:\users\ксюша\documents\visual studio 2013\Projects\PoiFT\PoiFT\obj\Debug\PoiFT.exe
+c:\users\ксюша\documents\visual studio 2013\Projects\PoiFT\PoiFT\obj\Debug\PoiFT.pdb
+C:\Users\Ксюша\Documents\Visual Studio 2013\Projects\PoiFT\PoiFT\bin\Debug\Open.Nat.dll

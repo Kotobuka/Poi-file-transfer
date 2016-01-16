@@ -144,19 +144,18 @@ namespace PoiFT
                 {
                     if (Listener.Pending())
                     {
+                        using (var audioStream = Properties.Resources.poi)
+                        {
+                            using (var player = new SoundPlayer(audioStream))
+                            {
+                                player.Play();
+                            }
+                        }
                         DialogResult result = MessageBox.Show(new Form() { TopMost = true }, "Accept the Incoming File", "Incoming Connection", MessageBoxButtons.YesNo);
-
                         if (result == System.Windows.Forms.DialogResult.Yes)
                         {
                             client = Listener.AcceptTcpClient();
                             netstream = client.GetStream();
-                            using (var audioStream = Properties.Resources.poi)
-                            {
-                                using (var player = new SoundPlayer(audioStream))
-                                {
-                                    player.Play();
-                                }
-                            }
                             string Filename = "";
                             long sizeFile = 1;
                             if ((RecBytes = netstream.Read(RecData, 0, RecData.Length)) > 0)
